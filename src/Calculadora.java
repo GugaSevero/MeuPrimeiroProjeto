@@ -1,13 +1,21 @@
 
 public class Calculadora {
 	
-	private int valorUm;
-	private int valorDois;
-	
-	public void somar(){
-		
+	private int valor;
+
+	public void somar(int valorUm, int valorDois){
+		this.valor = this.valor + (valorUm+valorDois);
+
 	}
 	
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int total) {
+		this.valor = total;
+	}
+
 	public void subtrair(){
 		
 	}
