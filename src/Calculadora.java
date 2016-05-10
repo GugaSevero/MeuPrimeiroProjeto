@@ -5,7 +5,6 @@ public class Calculadora {
 
 	public void somar(int valorUm, int valorDois){
 		this.valor = this.valor + (valorUm+valorDois);
-
 	}
 	
 	public int getValor() {
