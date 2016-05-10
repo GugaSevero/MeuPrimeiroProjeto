@@ -5,7 +5,6 @@ public class Calculadora {
 
 	public void somar(int valorUm, int valorDois){
 		this.valor = this.valor + (valorUm+valorDois);
-
 	}
 	
 	public int getValor() {
@@ -24,8 +23,8 @@ public class Calculadora {
 		
 	}
 	
-	public void multiplicar(){
-		
+	public void multiplicar(int valorUm, int valorDois){
+		this.valor = this.valor + (valorUm * valorDois);
 	}
 
 	public static void main(String[] args) {
